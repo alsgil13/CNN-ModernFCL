@@ -32,7 +32,7 @@
     </tr>
     <tr>
     <td>PIL</td>
-    <td>Utilizada para importação de imagens oq eu nos permite trabalhar com qualquer imagem</td>
+    <td>Utilizada para importação de imagens o que nos permite trabalhar com qualquer imagem</td>
     </tr>
     
     
