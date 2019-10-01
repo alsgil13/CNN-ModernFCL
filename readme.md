@@ -109,8 +109,8 @@ def filtergen(num,md=0,stdv=0.02,sz=4):
 <p>
 Um processo de convulução é um processo iterativo de multiplicação de matrizes. Uma matriz de entrada tem parte dos seus valores multiplicados pelos valores de um filtro, o filtro geralmente é menor do que a matriz de entrada, para que ele possa atuar sobre toda a entrada ele deve se deslocar um numero de passos em cada eixo, chamamos este passo de stride.<br>
 Após multiplicar todos os valores de uma região da matriz (chamada de campo receptivo ou <i>Receptive Field</i>) é feito um somatório da matriz resultante, este montante é adicionado à uma nova matriz cahamda de Mapa de Características (ou <i>Feature Map</i>).<br>
-A animação abaixo ilustra este processo:
-<img src="img/conv.gif">
+A animação abaixo ilustra este processo:<br>
+<img src="img/conv.gif"><br>
 Figura 3: Exemplo animado de uma convolução<br>
 Fonte: <a href="https://giphy.com/gifs/blog-daniel-keypoints-i4NjAwytgIRDW">https://giphy.com/gifs/blog-daniel-keypoints-i4NjAwytgIRDW</a>
 </p>
